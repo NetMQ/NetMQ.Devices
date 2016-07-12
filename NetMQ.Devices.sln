@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{338CCF4A-51D8-4183-96E9-6A2DE71CE50A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetMQ.Devices", "src\NetMQ.Devices\NetMQ.Devices.xproj", "{1654CA28-3B0C-4B5E-99EA-0A155B82875D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetMQ.Devices.Tests", "tests\NetMQ.Devices.Tests\NetMQ.Devices.Tests.xproj", "{B85D42AF-2233-402E-8630-5257485C1485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1654CA28-3B0C-4B5E-99EA-0A155B82875D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1654CA28-3B0C-4B5E-99EA-0A155B82875D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1654CA28-3B0C-4B5E-99EA-0A155B82875D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1654CA28-3B0C-4B5E-99EA-0A155B82875D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85D42AF-2233-402E-8630-5257485C1485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85D42AF-2233-402E-8630-5257485C1485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85D42AF-2233-402E-8630-5257485C1485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85D42AF-2233-402E-8630-5257485C1485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
