@@ -5,7 +5,7 @@
     "debugType": "portable"
   },
   "dependencies": {
-    "NetMQ": "4.0.0-beta",
+    "NetMQ": "4.0.0-rc5",
     "JetBrains.Annotations": {
       "version": "10.1.5",
       "type": "build"
