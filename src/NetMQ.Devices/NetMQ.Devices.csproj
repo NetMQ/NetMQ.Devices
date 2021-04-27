@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>NetMQ.Devices</AssemblyName>
+    <AssemblyOriginatorKeyFile>../../NetMQ.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+    <PackageId>NetMQ.Devices</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NetMQ" Version="4.0.1.6" />
+    <PackageReference Include="JetBrains.Annotations" Version="2021.1.0" />
+  </ItemGroup>
+</Project>
